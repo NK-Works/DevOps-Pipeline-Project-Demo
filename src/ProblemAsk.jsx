@@ -72,6 +72,16 @@ function ProblemAsk() {
           />
           Articles
         </div>
+        <div>
+          <input
+            type='radio'
+            name='Post Type'
+            value='Articles'
+            checked={postType === 'Articles'}
+            onChange={handleChangePosting}
+          />
+          Books
+        </div>
       </div>
       <div className='formstart'>
         <div className='formitems'>What do you want to ask or share?</div>
